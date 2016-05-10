@@ -1,9 +1,9 @@
 /*# Rod's CSS */
-nav img {
+/*nav img {
     margin-left: 5px;
     margin-right: 0px;
     margin-top: 2px;
-}
+}*/
 nav {
     font-size: 16px;
 }
@@ -18,7 +18,7 @@ nav {
   color: #FEFEFE;
 }
 
-/*MAKE THE NAV SELECTIONS HOVER BLUE*/
+/*MAKE THE NAV SELECTIONS HOVER BROWN*/
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #F3B754;
@@ -41,19 +41,19 @@ nav.navbar.navbar-default {
     height: auto;
     margin: none;
 }
-/*MAKE THE NAV BAR TEXT GO UP OR DOWN*/
+/*MAKE THE NAV BAR TEXT GO UP OR DOWN
 ul.nav.navbar-nav {
   margin-top: 18px; 
-}
-/*REMOVE THE PADDING FROM LOGO TO BRING NAV TEXT CLOSER*/
+}*/
+/*REMOVE THE PADDING FROM LOGO TO BRING NAV TEXT CLOSER
 a.navbar-brand {
   padding-right: 0px;
-}
-/*MOVES THE NAV BAR TEXT TO THE LEFT*/
+}*/
+/*MOVES THE NAV BAR TEXT TO THE LEFT
     li {
   position: absolute;
   right: 18%;
-}
+}*/
 
 
 
@@ -103,5 +103,15 @@ a.navbar-brand {
           border: none;
     }
   }
+/*CLICK THE BUTTON MAKES THE SCREEN BLACK WHEN ON A MOBILE DEVICE
+  @media (max-width: 435px) {
+    nav.navbar.navbar-default.navbar-fixed-top {
+          background-color: #000000;
+          width: 35%;
+          height: 38%;
+          border: none;
+    }
+  }
+*/
 
 
